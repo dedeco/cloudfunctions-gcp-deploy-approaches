@@ -26,7 +26,7 @@ resource "google_storage_bucket_object" "function_code" {
 
 # Create the Cloud Function
 resource "google_cloudfunctions_function" "chuck_norris_jokes" {
-  name        = "chuck-norris-jokes"
+  name        = "chuck-norris-jokes-demo-2"
   description = "Function that returns random Chuck Norris jokes"
   runtime     = "nodejs14"  # You can choose a different runtime like python38, go116, etc.
 
