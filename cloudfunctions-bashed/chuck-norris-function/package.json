@@ -1,0 +1,11 @@
+{
+  "name": "chuck-norris-jokes",
+  "version": "1.0.0",
+  "description": "A simple Cloud Function that returns random Chuck Norris jokes",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {},
+  "private": true
+}
